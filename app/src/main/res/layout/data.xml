@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15sp"
+    >
+
+    <TextView
+        android:id="@+id/dataNum"
+        android:text="1"
+        android:textColor="@color/main"
+        android:textSize="14sp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/dataName"
+        android:background="@drawable/text_field"
+        android:textColor="@color/main"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/dataValue"
+        android:background="@drawable/text_field"
+        android:textColor="@color/main"
+        android:gravity="center"
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:inputType="numberDecimal"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/pickColor"
+            android:background="@drawable/pick_color"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp">
+
+        </View>
+    </LinearLayout>
+
+
+</LinearLayout>

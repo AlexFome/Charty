@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_gravity="center"
+        android:id="@+id/color"
+        android:background="@drawable/pick_color"
+        android:layout_margin="30dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"></View>
+
+</LinearLayout>

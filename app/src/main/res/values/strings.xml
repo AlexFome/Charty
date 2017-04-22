@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Charty</string>
+
+    <string name="saved_charts">SavedCharts</string>
+
+    <string name="fontSize">14sp</string>
+    <string name="facebook_app_id">INSERT YOUR FACEBOOK APP ID HERE</string>
+</resources>

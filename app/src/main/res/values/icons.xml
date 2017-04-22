@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="area_chart">&#xf1fe;</string>
+    <string name="bar_chart">&#xf080;</string>
+    <string name="line_chart">&#xf201;</string>
+    <string name="pie_chart">&#xf200;</string>
+    <string name="progress_chart">&#xf0c9;</string>
+    <string name="save">&#xf0c7;</string>
+    <string name="ok">&#xf00c;</string>
+    <string name="twitter">&#xf099;</string>
+    <string name="facebook">&#xf09a;</string>
+    <string name="heart">&#xf004;</string>
+    <string name="remove">&#xf00d;</string>
+    <string name="settings">&#xf1de;</string>
+    <string name="email">&#xf0e0;</string>
+</resources>
